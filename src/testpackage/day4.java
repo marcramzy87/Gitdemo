@@ -15,7 +15,7 @@ public class day4 {
 	{
 		System.out.println("Used Cars");	
 		System.out.println(urlname);	
-		System.out.println(title);	
+		System.out.println(title);
 	}
 	
 	@Test(dataProvider="getData")
@@ -28,6 +28,12 @@ public class day4 {
 	public void ads()
 	{
 		System.out.println("ads");			
+	}
+
+	@Test
+	public void helloCars()
+	{
+		System.out.println("Hello Cars");			
 	}
 	
 	@DataProvider
