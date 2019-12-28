@@ -10,6 +10,12 @@ public class day2 {
 		System.out.println("Bye");
 	}
 	
+
+	@Test
+	public void ThirdTest()
+	{
+		System.out.println("Hello Third Test");
+	}
 	@BeforeTest
 	public void prerequistes()
 	{

@@ -35,6 +35,18 @@ public class day4 {
 	{
 		System.out.println("Hello Cars");			
 	}
+
+	@Test
+	public void helloWorld()
+	{
+		System.out.println("Hello World");			
+	}
+
+	@Test
+	public void helloMotorcycles()
+	{
+		System.out.println("Hello Motorcycles");			
+	}
 	
 	@DataProvider
 	public Object[][] getData()
