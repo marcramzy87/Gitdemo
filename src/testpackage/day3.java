@@ -22,4 +22,10 @@ public class day3 {
 		System.out.println("APILogin");	
 	}
 
+	@Test
+	public void DBLogin()
+	{
+		System.out.println("DBLogin");	
+	}
+
 }
